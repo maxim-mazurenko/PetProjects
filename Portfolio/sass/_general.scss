@@ -1,0 +1,28 @@
+* {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.divider {
+    width: 60px;
+    height: 3px;
+    background-color: $main-color;
+    margin-top: 25px;
+}
+.pageup {
+	position: fixed;
+	display: none;
+	bottom: 15px;
+	right: 15px;
+	animation: arrow 1s linear infinite alternate;
+	img {
+		width: 35px;
+    	height: 100%;
+	}
+}
