@@ -41,7 +41,7 @@ const Request = (event) => {
         
       if (data == null) {
         statusMessage.remove();
-        Err("Неверный логин или пароль.");
+        Err("Неверный логин или пароль");
           
       } else if (data.email === 'Admin@link') {
           window.location.href = '../admin.html';
