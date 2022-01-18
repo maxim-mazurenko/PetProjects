@@ -3,6 +3,7 @@ import Table1 from '../table1/table1';
 import Table2 from '../table2/table2';
 import Table3 from '../table3/table3';
 
+
 import './app.css'
 
 
@@ -19,6 +20,10 @@ class App extends Component {
                 {input1: 4, input2: 6, id: 2},
             ],
             table3: [{input1: 0, input2: 0, id: 2}],
+            grash: false,
+            graphTable1: [],
+            graphTable2: [],
+            graphTable3: [],
 
         }
         this.maxId = 3;
@@ -133,9 +138,26 @@ class App extends Component {
         
         }
         
+        const table1Rev = table1X.map((item, i) => {
+            return {input1: table1X[i], input2: table1Y[i]}
+        }).reverse()
+        const table2Rev = table2X.map((item, i) => {
+            return {input1: table2X[i], input2: table2Y[i]}
+        }).reverse()
+
+        const table3Rev = table3.map((item, i) => {
+           return item
+        }).reverse()
+
         this.setState({
-            table3: table3
+            table3: table3,
+            grash: true,
+            graphTable1: table1Rev,
+            graphTable2: table2Rev,
+            graphTable3: table3Rev,
+
         })
+
 
 
 
@@ -147,71 +169,83 @@ class App extends Component {
     }
 
     render() {
-        const {table1, table2, table3} = this.state;
+        const {table1, table2, table3, graphTable1, graphTable2, graphTable3} = this.state;
 
-        return(
+     
 
-            <div className='table-gn'>
-            <div className='table1'>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>X</td>
-                            <td>Y</td>
-                            <td></td>
-                        </tr>
+    
+            return(
+
+                <>
+                <div className='table-gn'>
+                <div className='table1'>
+                <h2>Таблица 1</h2>
+                    <table>
+                        <tbody>
+                            
+                            <tr>
+                                <td>X</td>
+                                <td>Y</td>
+                                <td></td>
+                            </tr>
+                    
+                            {table1.map((item, i) => (
+                                <Table1 key={item.id} input1={item.input1} input2={item.input2} id={item.id} i={i} deleteItem={this.deleteItem}/>
+                            ))}
+    
+                        </tbody>
+                    </table>
+                    <button name='table1' onClick={(e) => this.addItem(e.target.name)}  className='table1-btn'>ADD</button>
+                </div>
+    
+    
+                <div className='table2'>
+                <h2>Таблица 2</h2>
+                    <table>
+                        <tbody>
+                        
+                            <tr>
+                                <td>X</td>
+                                <td>Y</td>
+                                <td></td>
+                            </tr>
+                    
+                            {table2.map((item, i) => (
+                                <Table2 key={item.id} input1={item.input1} input2={item.input2} i={i} id={item.id} deleteItem={this.deleteItem}/>
+                            ))}
+    
+                        </tbody>
+                    </table>
+                    <button name='table2' onClick={(e) => this.addItem(e.target.name)}  className='table1-btn'>ADD</button>
+                </div>
+    
+                <div className='table3'>
+                <h2>Ср. таб. 1,2</h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>X</td>
+                                <td>Y</td>
+                            </tr>
+                    
+                            {table3.map(item => (
+                                <Table3 key={item.id} input1={item.input1} input2={item.input2} id={item.id}/>
+                            ))}
+    
+                        </tbody>
+                    </table>
+                    <button name='table3' onClick={this.calculate}   className='table1-btn'>Calculate</button>
+                </div>
+    
                 
-                        {table1.map((item, i) => (
-                            <Table1 key={item.id} input1={item.input1} input2={item.input2} id={item.id} i={i} deleteItem={this.deleteItem}/>
-                        ))}
-
-                    </tbody>
-                </table>
-                <button name='table1' onClick={(e) => this.addItem(e.target.name)}  className='table1-btn'>ADD</button>
-            </div>
-
-
-            <div className='table2'>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>X</td>
-                            <td>Y</td>
-                            <td></td>
-                        </tr>
+                                
+                              
                 
-                        {table2.map((item, i) => (
-                            <Table2 key={item.id} input1={item.input1} input2={item.input2} i={i} id={item.id} deleteItem={this.deleteItem}/>
-                        ))}
-
-                    </tbody>
-                </table>
-                <button name='table2' onClick={(e) => this.addItem(e.target.name)}  className='table1-btn'>ADD</button>
-            </div>
-
-            <div className='table3'>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>X</td>
-                            <td>Y</td>
-                        </tr>
-                
-                        {table3.map(item => (
-                            <Table3 key={item.id} input1={item.input1} input2={item.input2} id={item.id}/>
-                        ))}
-
-                    </tbody>
-                </table>
-                <button name='table3' onClick={this.calculate}   className='table1-btn'>Calculate</button>
-            </div>
-
-            
-            
-            </div>
-            
-        )
-    }
+                </div>
+               
+               </>                 
+            )
+        }
 }
 
 
