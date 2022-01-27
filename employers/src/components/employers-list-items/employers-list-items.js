@@ -1,4 +1,4 @@
-import {Component} from 'react';
+
 import './employers-list-items.css';
 
 

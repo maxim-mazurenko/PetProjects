@@ -250,3 +250,27 @@ class App extends Component {
 
 
 export default App;
+
+
+
+
+
+const num = 122333444455555;
+
+function Result() {
+    const arr = [...String(num)];
+
+    const res = {};
+    
+    for(let i = 0; i < arr.length; i++) {
+        if(res[arr[i]]) {
+            res[arr[i]]++
+        } else {
+            res[arr[i]] = 1
+        }
+    };
+
+    return res;
+
+}
+console.log(Result());
