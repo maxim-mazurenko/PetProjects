@@ -40,7 +40,7 @@ document.querySelectorAll('button').forEach(item => {
                 value2 = key;
                 finish = false;
                 out.textContent = value2;
-                console.log(value1, value2, sing)
+  
             } else {
                 value2 += key;
                 out.textContent = value2;
@@ -55,8 +55,6 @@ document.querySelectorAll('button').forEach(item => {
             out.textContent = sing;
             return;
         }
-
-      
 
         if(key === '=') {
             if (value2 === '') {value2 = value1}
@@ -80,16 +78,14 @@ document.querySelectorAll('button').forEach(item => {
                     }
                     value1 = (+value1) / (+value2);
                     break;
-            } 
-            
-        }
+            }
 
             
             finish = true;
 
             out.textContent = value1;
-        
-        console.log(value1, value2, sing)
+        }
+
     })
     
 })
