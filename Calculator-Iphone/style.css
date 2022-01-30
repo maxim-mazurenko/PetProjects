@@ -85,3 +85,7 @@
 button:hover {
     filter: brightness(120%);
 }
+
+button {
+    align-items: center;
+}
