@@ -1,5 +1,8 @@
 "use strict";
 
+
+
+
 let value1 = '',
     value2 = '',
     sing = '',

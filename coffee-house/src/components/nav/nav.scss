@@ -1,0 +1,32 @@
+.header {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+
+    img {
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: 5px;
+    }
+
+    ul {
+        margin: 0;
+        position: relative;
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    li {
+        padding-bottom: 5px;
+        list-style-type: none;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+        &:hover {
+            
+            border-bottom: 1px solid white;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.OurBest {
+    background: url(../../img/OurBestBG.png) no-repeat center/cover;
+    height: 511px;
+    padding: 80px 0 110px 0;
+
+    &__h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 39px;
+    }
+
+    &__items {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        margin-top: 5px;
+        width: 220px;
+        height: 240px;
+        background: rgba(255, 255, 255, 0.65);
+        border-radius: 8px;
+
+    }
+
+    img {
+        margin: 0 auto;
+        margin-top: 22px;
+        display: block;
+        width: 167px;
+        height: 134px;
+        
+    }
+
+    &__name {
+        margin: 14px 0 10px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    &__price {
+        margin: 0 22px 22px 0;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: end;
+    }
+}

@@ -1,0 +1,92 @@
+.OurCoffeeItems {
+    height: 735px;
+    &__filter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__p1 {
+        font-size: 14px;
+        margin-right: 19px;
+    }
+    &__p2 {
+        font-size: 14px;
+        margin-right: 35px;
+    }
+    &__in {
+        width: 180px;
+        height: 30px;
+        border: none;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        text-align: center;
+        font-family: 'Merienda', cursive;
+        font-size: 12px;
+        margin-right: 83px;
+    }
+
+    &__btn {
+        display: flex;
+
+        li {
+            list-style-type: none;
+            width: 75px;
+            
+            border: none;
+            background: #FFFFFF;
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+            border-radius: 4px 0px 0px 4px;
+            font-size: 12px;
+            text-align: center;
+            margin-right: 5px;
+            padding: 7px 0 5px 0;
+            cursor: pointer;
+        }
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
+
+        
+    }
+    &__item {
+        margin-top: 60px;
+        width: 220px;
+        height: 260px;
+        background: #FFFFFF;
+        border-radius: 8px;
+        filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+        img {
+            margin: 0 auto;
+            display: block;
+            margin-top: 35px;
+        }
+        cursor: pointer;
+        
+    }
+    &__name {
+        margin: 14px 0 10px 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    &__country {
+        margin: 0 22px 14px 0;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: end;
+    }
+
+    &__price {
+        margin: 0 22px 22px 0;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: end;
+    }
+}

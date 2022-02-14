@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PetProjects/coffee-house/build/static/css/main.3019c2e6.css",
+    "main.js": "/PetProjects/coffee-house/build/static/js/main.88fa8410.js",
+    "static/media/OurBestBG.png": "/PetProjects/coffee-house/build/static/media/OurBestBG.26be29b7a9287a00db11.png",
+    "static/media/promoBg.png": "/PetProjects/coffee-house/build/static/media/promoBg.aeee923e2d19311737a1.png",
+    "static/media/ourCoffeeBG.png": "/PetProjects/coffee-house/build/static/media/ourCoffeeBG.7a19cce3caa774304f6b.png",
+    "static/media/ourCoffeeGirl.png": "/PetProjects/coffee-house/build/static/media/ourCoffeeGirl.2f0f5f72a1642167ec56.png",
+    "static/media/coffee-839233_1920.png": "/PetProjects/coffee-house/build/static/media/coffee-839233_1920.e11f8df88fa82c6f5fdd.png",
+    "static/media/Presto Coffee Beans 1 kg.jpg": "/PetProjects/coffee-house/build/static/media/Presto Coffee Beans 1 kg.541fc7ed951848f9379c.jpg",
+    "static/media/Solimo Coffee Beans 2 kg.jpg": "/PetProjects/coffee-house/build/static/media/Solimo Coffee Beans 2 kg.c45992a26cd5f9c00e1f.jpg",
+    "static/media/AROMISTICO Coffee 1 kg.jpg": "/PetProjects/coffee-house/build/static/media/AROMISTICO Coffee 1 kg.5173b2c023182e4b0bc4.jpg",
+    "static/media/LogoHeader.svg": "/PetProjects/coffee-house/build/static/media/LogoHeader.8ecfceb9eda1c212aa33d636ba3e1591.svg",
+    "static/media/LogoBlack.svg": "/PetProjects/coffee-house/build/static/media/LogoBlack.750dd53cdcf920a2a59b532c3dce1ea9.svg",
+    "static/media/Beanslogo.svg": "/PetProjects/coffee-house/build/static/media/Beanslogo.21c78e82bb1ca14c2c43c31710d3dd9b.svg",
+    "static/media/BeanslogoBlack.svg": "/PetProjects/coffee-house/build/static/media/BeanslogoBlack.3e8581bb6c40dc8af62956a5ee00c478.svg",
+    "index.html": "/PetProjects/coffee-house/build/index.html",
+    "main.3019c2e6.css.map": "/PetProjects/coffee-house/build/static/css/main.3019c2e6.css.map",
+    "main.88fa8410.js.map": "/PetProjects/coffee-house/build/static/js/main.88fa8410.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3019c2e6.css",
+    "static/js/main.88fa8410.js"
+  ]
+}
