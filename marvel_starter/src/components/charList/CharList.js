@@ -5,7 +5,7 @@ import MarvelServise from '../../services/MarvelServise';
 import Spinner from '../spiner/Spiner';
 import ErrorMasseg from '../errorMessag/ErrorMasseg';
 import Spiner2 from '../spiner2/Spiner2';
-import ReactDOM from 'react-dom';
+
 
 
 
