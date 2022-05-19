@@ -38,6 +38,7 @@
     border: none;
     cursor: pointer;
     font-family: Myriad Pro;
+    text-align: center;
 }
 .calculator__btn-style2 {
     width: 55px;
