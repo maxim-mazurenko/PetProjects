@@ -1,108 +1,102 @@
-@import '../../sass/pages/variables';
+@import "../../sass/pages/variables";
 a {
-    text-decoration: none;
-    color: black;
-};
+  text-decoration: none;
+  color: black;
+}
 
 textarea {
-    width: 100%;
-    border: none;
-    outline: none;
+  width: 100%;
+  border: none;
+  outline: none;
 }
 .training {
-    margin: 110px 25px 50px;
+  margin: 110px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__material {
+    min-width: 270px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  &__desc {
+    margin-bottom: 15px;
+  }
+  &__item-textarea {
+    display: none;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-shadow: $shadow;
+  }
+  &__item {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-    &__material {
-        min-width: 270px;
-        text-align: center;
-        margin-bottom: 30px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    &:hover {
+      border-radius: 5px;
+      box-shadow: $shadow;
     }
-    &__desc {
-        margin-bottom: 15px;
+    &-btn {
+      display: none;
+      margin-bottom: 30px;
+      margin-top: 15px;
+      min-width: 100%;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 700;
+      color: $headerColor;
+      background-color: rgba(25, 125, 255, 0.9);
+      border-radius: 7px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 0px 0px 10px rgba(25, 125, 255, 0.753);
+      }
     }
-    &__item-textarea {
-        
-        display: none;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        margin-bottom: 20px;
-        padding: 5px;
-        box-shadow: $shadow;
-    }
-    &__item {
+    &-img {
+      margin-right: 10px;
+      width: 70px;
+      font-size: 70px;
+
+      i {
         display: flex;
-        flex-direction: row;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
-        margin-bottom: 20px;
-        padding: 5px;
-        &:hover {
-            border-radius: 5px;
-            box-shadow: $shadow;
-           
-        }
-        &-btn {
-            display: none;
-            margin-bottom: 30px;
-            margin-top: 15px;
-            min-width: 100%;
-            height: 40px;
-            font-size: 16px;
-            font-weight: 700;
-            color: $headerColor;
-            background-color:rgba(25, 125, 255, 0.9);
-            border-radius: 7px;
-            outline: none;
-            border: none;
-            cursor: pointer;
-            &:hover {
-                box-shadow: 0px 0px 10px rgba(25, 125, 255, 0.753);
-            }
-        }    
-        &-img {
-            margin-right: 10px;
-            width: 70px;
-            font-size: 70px;
-
-            i {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-        }
-        &-text {
-            max-width: 220px;
-            &1 {
-                font-size: 11px;
-                font-weight: 400;
-            }
-            &2 {
-                font-size: 16px;
-                font-weight: 700;
-                margin-bottom: 10px;
-            }
-            &3 {
-                font-size: 12px;
-                font-weight: 500;
-                color: rgb(36, 170, 36);
-            }
-            
-        }
-        &-link {
-            text-decoration: none;
-            color: $headerColor;
-            
-            &:hover {
-                cursor: pointer;
-                color: $aHover;
-            }
-        }
+      }
     }
+    &-text {
+      max-width: 220px;
+      &1 {
+        font-size: 11px;
+        font-weight: 400;
+      }
+      &2 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      &3 {
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(36, 170, 36);
+      }
+    }
+    &-link {
+      text-decoration: none;
+      color: $headerColor;
 
-}   
-
+      &:hover {
+        cursor: pointer;
+        color: $aHover;
+      }
+    }
+  }
+}

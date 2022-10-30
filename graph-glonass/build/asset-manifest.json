@@ -6,8 +6,5 @@
     "main.24bd2d0f.css.map": "/PetProjects/graph-glonass/static/css/main.24bd2d0f.css.map",
     "main.6ceddab1.js.map": "/PetProjects/graph-glonass/static/js/main.6ceddab1.js.map"
   },
-  "entrypoints": [
-    "static/css/main.24bd2d0f.css",
-    "static/js/main.6ceddab1.js"
-  ]
+  "entrypoints": ["static/css/main.24bd2d0f.css", "static/js/main.6ceddab1.js"]
 }

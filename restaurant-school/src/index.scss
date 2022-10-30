@@ -1,17 +1,16 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
   position: relative;
   margin: 0;
-  padding:0 15px;
-  font-family: 'Roboto', sans-serif;
+  padding: 0 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -20,10 +19,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 .app {
   position: relative;
 }
-
-

@@ -1,28 +1,28 @@
 .sidepanel {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 340px;
-    z-index: 3;
-    top: 230px;
-    left: 50px;
-    &__divider {
-        width: 2px;
-        height: 70px;
-        background-color: #000;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 340px;
+  z-index: 3;
+  top: 230px;
+  left: 50px;
+  &__divider {
+    width: 2px;
+    height: 70px;
+    background-color: #000;
+  }
+  &__text {
+    font-weight: bold;
+    font-size: 16px;
+    height: 150px;
+    letter-spacing: -0.5px;
+    width: 25px;
+    span {
+      display: block;
+      width: 150px;
+      transform: rotate(-90deg) translate(-34%, -269%);
     }
-    &__text {
-        font-weight: bold;
-        font-size: 16px;
-        height: 150px;
-        letter-spacing: -0.5px;
-        width: 25px;
-        span {
-            display: block;
-            width: 150px;
-            transform: rotate(-90deg) translate(-34%, -269%);
-        }
-    }
+  }
 }

@@ -1,22 +1,19 @@
+@import "./pages/variables";
+@import "./pages/general";
+@import "./pages/login";
+@import "./pages/nav";
+@import "./pages/reg";
+@import "./pages/btns";
+@import "./pages/courses";
+@import "./pages/modal";
+@import "./pages/admin";
 
-@import './pages/variables';
-@import './pages/general';
-@import './pages/login';
-@import './pages/nav';
-@import './pages/reg';
-@import './pages/btns';
-@import './pages/courses';
-@import './pages/modal';
-@import './pages/admin';
+@import "./pages/bar";
+@import "./pages/wine";
+@import "./pages/servise";
+@import "./pages/restaurant";
+@import "./pages/kitchen";
+@import "./pages/trainingAll";
+@import "./pages/test";
 
-@import './pages/bar';
-@import './pages/wine';
-@import './pages/servise';
-@import './pages/restaurant';
-@import './pages/kitchen';
-@import './pages/trainingAll';
-@import './pages/test';
-
-
-
-@import './pages/responsive';
+@import "./pages/responsive";

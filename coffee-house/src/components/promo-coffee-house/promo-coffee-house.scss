@@ -1,78 +1,74 @@
 .promo {
+  width: 100%;
+  height: 640px;
+  background: url(../../img/promoBg.png) no-repeat center/cover;
 
-    width: 100%;
-    height: 640px;
-    background: url(../../img/promoBg.png) no-repeat center/cover;
+  &__block {
+    padding: 180px 0 201px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    &__block {
-        padding: 180px 0 201px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  &__img {
+    display: block;
+    margin-bottom: 35px;
+  }
+  &__header {
+    text-align: center;
+    margin: 0px 0 5px 0;
+    font-family: "Merienda", cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;
 
-    }
+    color: #ffffff;
 
-    &__img {
-        display: block;
-        margin-bottom: 35px;
-    }
-    &__header {
-        text-align: center;
-        margin: 0px 0 5px 0;
-        font-family: 'Merienda', cursive;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 40px;
-        line-height: 58px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 
-        color: #FFFFFF;
+  &__p1 {
+    text-align: center;
+    margin: 0 0 20px 0;
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
 
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+    color: #ffffff;
 
-    &__p1 {
-        text-align: center;
-        margin: 0 0 20px 0;
-        font-family: 'Merienda';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 35px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 
-        color: #FFFFFF;
+  &__p2 {
+    text-align: center;
+    margin: 0 0 18px 0;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 
+  &__btn {
+    width: 120px;
+    height: 30px;
+    font-family: "Merienda";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
 
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    &__p2 {
-        text-align: center;
-        margin: 0 0 18px 0;
-        font-family: Merienda;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 35px;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-    &__btn {
-        width: 120px;
-        height: 30px;
-        font-family: 'Merienda';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 20px;
-
-        color: #FFFFFF;
-        background: rgba(0, 0, 0, 0.0);
-        border: 1px solid #FFFFFF;
-        box-sizing: border-box;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 3px;
-        cursor: pointer;
-
-    }
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
+    cursor: pointer;
+  }
 }

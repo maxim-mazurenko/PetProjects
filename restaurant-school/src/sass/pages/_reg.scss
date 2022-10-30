@@ -1,34 +1,33 @@
 .reg {
-    margin: 150px 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    &__header {
-        margin-bottom: 25px;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-        color:rgba(27, 204, 51, 0.9);
-
+  margin: 150px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__header {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(27, 204, 51, 0.9);
+  }
+  &__login {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__password {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__link {
+    font-size: 14px;
+    font-weight: 400;
+    a {
+      color: rgba(25, 125, 255, 0.9);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.8);
     }
-    &__login {
-        margin-bottom: 10px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-    &__password {
-        margin-bottom: 10px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-    &__link {
-        font-size: 14px;
-        font-weight: 400;
-        a {
-            color:rgba(25, 125, 255, 0.9);
-            text-decoration: none;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.8);
-        }
-    }
+  }
 }

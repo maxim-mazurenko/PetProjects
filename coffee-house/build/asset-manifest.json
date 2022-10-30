@@ -18,8 +18,5 @@
     "main.3019c2e6.css.map": "/PetProjects/coffee-house/build/static/css/main.3019c2e6.css.map",
     "main.88fa8410.js.map": "/PetProjects/coffee-house/build/static/js/main.88fa8410.js.map"
   },
-  "entrypoints": [
-    "static/css/main.3019c2e6.css",
-    "static/js/main.88fa8410.js"
-  ]
+  "entrypoints": ["static/css/main.3019c2e6.css", "static/js/main.88fa8410.js"]
 }

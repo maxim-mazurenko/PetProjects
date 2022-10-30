@@ -1,2 +1,320 @@
-body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;box-sizing:border-box;font-family:Merienda,cursive;margin:0;padding:0}code{font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace}.countainer{margin:0 auto;max-width:865px}.promo{background:url(/PetProjects/coffee-house/build/static/media/promoBg.aeee923e2d19311737a1.png) no-repeat 50%/cover;height:640px;width:100%}.promo__block{align-items:center;display:flex;flex-direction:column;padding:180px 0 201px}.promo__img{display:block;margin-bottom:35px}.promo__header{color:#fff;font-family:Merienda,cursive;font-size:40px;font-style:normal;font-weight:700;line-height:58px;margin:0 0 5px;text-align:center;text-shadow:0 4px 4px rgba(0,0,0,.25)}.promo__p1{margin:0 0 20px}.promo__p1,.promo__p2{color:#fff;font-family:Merienda;font-size:24px;font-style:normal;font-weight:700;line-height:35px;text-align:center;text-shadow:0 4px 4px rgba(0,0,0,.25)}.promo__p2{margin:0 0 18px}.promo__btn{background:transparent;border:1px solid #fff;border-radius:3px;box-sizing:border-box;color:#fff;cursor:pointer;-webkit-filter:drop-shadow(0 4px 4px rgba(0,0,0,.25));filter:drop-shadow(0 4px 4px rgba(0,0,0,.25));font-family:Merienda;font-size:14px;font-style:normal;font-weight:700;height:30px;line-height:20px;width:120px}.header{left:150px;position:absolute;top:50px}.header img{display:block;left:5px;position:absolute;top:-20px}.header ul{display:flex;justify-content:space-between;margin:0;position:relative;width:350px}.header li{color:#fff;cursor:pointer;font-size:12px;list-style-type:none;padding-bottom:5px}.header li:hover{border-bottom:1px solid #fff}.aboutUS{height:520px;padding:80px 0 100px}.aboutUS__h2{font-size:24px}.aboutUS__block{align-items:center;display:flex;flex-direction:column}.aboutUS img{margin-bottom:40px}.aboutUS__text{font-size:14px;text-align:center}.OurBest{background:url(/PetProjects/coffee-house/build/static/media/OurBestBG.26be29b7a9287a00db11.png) no-repeat 50%/cover;height:511px;padding:80px 0 110px}.OurBest__h2{font-size:24px;margin-bottom:39px;text-align:center}.OurBest__items{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between;margin:0 auto}.OurBest__item{background:hsla(0,0%,100%,.65);border-radius:8px;height:240px;margin-top:5px;width:220px}.OurBest img{display:block;height:134px;margin:22px auto 0;width:167px}.OurBest__name{font-size:14px;margin:14px 0 10px;text-align:center}.OurBest__price{font-size:14px;font-weight:700;margin:0 22px 22px 0;text-align:end}.footer{height:150px;position:relative}.footer nav{left:50%;top:50px;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.footer nav li:hover{border-bottom:1px solid #000}.footer__img{left:50%;position:absolute;top:100px;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.ourCoffee{background:url(/PetProjects/coffee-house/build/static/media/ourCoffeeBG.7a19cce3caa774304f6b.png) no-repeat 50%/cover;height:260px}.ourCoffee h1{color:#fff;margin:0;padding:130px 0 0;text-align:center}.OurCoffeeAbout{height:450px;padding:70px 0 15px;position:relative}.OurCoffeeAbout h3{font-size:24px;margin:9px 0 0}.OurCoffeeAbout__block{align-items:start;display:flex}.OurCoffeeAbout__img{display:block;margin-right:79px}.OurCoffeeAbout__items{align-items:center;display:flex;flex-direction:column;justify-content:center}.OurCoffeeAbout__items img{display:block;margin-top:20px}.OurCoffeeAbout p{margin:25px 0 0;text-align:center;white-space:pre-line}.OurCoffeeAbout__border{background-color:#000;height:1px;left:50%;position:absolute;top:485px;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:240px}.OurCoffeeItems{height:735px}.OurCoffeeItems__filter{align-items:center;display:flex;justify-content:center}.OurCoffeeItems__p1{font-size:14px;margin-right:19px}.OurCoffeeItems__p2{font-size:14px;margin-right:35px}.OurCoffeeItems__in{background:#fff;border:none;border-radius:4px;box-shadow:4px 4px 20px rgba(0,0,0,.25);font-family:Merienda,cursive;font-size:12px;height:30px;margin-right:83px;text-align:center;width:180px}.OurCoffeeItems__btn{display:flex}.OurCoffeeItems__btn li{background:#fff;border:none;border-radius:4px 0 0 4px;box-shadow:4px 4px 20px rgba(0,0,0,.25);cursor:pointer;font-size:12px;list-style-type:none;margin-right:5px;padding:7px 0 5px;text-align:center;width:75px}.OurCoffeeItems__items{align-items:center;display:flex;flex-wrap:wrap;justify-content:space-between}.OurCoffeeItems__item{background:#fff;border-radius:8px;cursor:pointer;-webkit-filter:drop-shadow(5px 5px 15px rgba(0,0,0,.25));filter:drop-shadow(5px 5px 15px rgba(0,0,0,.25));height:260px;margin-top:60px;width:220px}.OurCoffeeItems__item img{display:block;margin:35px auto 0}.OurCoffeeItems__name{font-size:14px;margin:14px 0 10px;text-align:center}.OurCoffeeItems__country{font-size:14px;font-weight:400;margin:0 22px 14px 0;text-align:end}.OurCoffeeItems__price{font-size:14px;font-weight:700;margin:0 22px 22px 0;text-align:end}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: Merienda, cursive;
+  margin: 0;
+  padding: 0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace;
+}
+.countainer {
+  margin: 0 auto;
+  max-width: 865px;
+}
+.promo {
+  background: url(/PetProjects/coffee-house/build/static/media/promoBg.aeee923e2d19311737a1.png)
+    no-repeat 50% / cover;
+  height: 640px;
+  width: 100%;
+}
+.promo__block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 180px 0 201px;
+}
+.promo__img {
+  display: block;
+  margin-bottom: 35px;
+}
+.promo__header {
+  color: #fff;
+  font-family: Merienda, cursive;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  margin: 0 0 5px;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.promo__p1 {
+  margin: 0 0 20px;
+}
+.promo__p1,
+.promo__p2 {
+  color: #fff;
+  font-family: Merienda;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.promo__p2 {
+  margin: 0 0 18px;
+}
+.promo__btn {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  font-family: Merienda;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  height: 30px;
+  line-height: 20px;
+  width: 120px;
+}
+.header {
+  left: 150px;
+  position: absolute;
+  top: 50px;
+}
+.header img {
+  display: block;
+  left: 5px;
+  position: absolute;
+  top: -20px;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  position: relative;
+  width: 350px;
+}
+.header li {
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+.header li:hover {
+  border-bottom: 1px solid #fff;
+}
+.aboutUS {
+  height: 520px;
+  padding: 80px 0 100px;
+}
+.aboutUS__h2 {
+  font-size: 24px;
+}
+.aboutUS__block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.aboutUS img {
+  margin-bottom: 40px;
+}
+.aboutUS__text {
+  font-size: 14px;
+  text-align: center;
+}
+.OurBest {
+  background: url(/PetProjects/coffee-house/build/static/media/OurBestBG.26be29b7a9287a00db11.png)
+    no-repeat 50% / cover;
+  height: 511px;
+  padding: 80px 0 110px;
+}
+.OurBest__h2 {
+  font-size: 24px;
+  margin-bottom: 39px;
+  text-align: center;
+}
+.OurBest__items {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.OurBest__item {
+  background: hsla(0, 0%, 100%, 0.65);
+  border-radius: 8px;
+  height: 240px;
+  margin-top: 5px;
+  width: 220px;
+}
+.OurBest img {
+  display: block;
+  height: 134px;
+  margin: 22px auto 0;
+  width: 167px;
+}
+.OurBest__name {
+  font-size: 14px;
+  margin: 14px 0 10px;
+  text-align: center;
+}
+.OurBest__price {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 22px 22px 0;
+  text-align: end;
+}
+.footer {
+  height: 150px;
+  position: relative;
+}
+.footer nav {
+  left: 50%;
+  top: 50px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.footer nav li:hover {
+  border-bottom: 1px solid #000;
+}
+.footer__img {
+  left: 50%;
+  position: absolute;
+  top: 100px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.ourCoffee {
+  background: url(/PetProjects/coffee-house/build/static/media/ourCoffeeBG.7a19cce3caa774304f6b.png)
+    no-repeat 50% / cover;
+  height: 260px;
+}
+.ourCoffee h1 {
+  color: #fff;
+  margin: 0;
+  padding: 130px 0 0;
+  text-align: center;
+}
+.OurCoffeeAbout {
+  height: 450px;
+  padding: 70px 0 15px;
+  position: relative;
+}
+.OurCoffeeAbout h3 {
+  font-size: 24px;
+  margin: 9px 0 0;
+}
+.OurCoffeeAbout__block {
+  align-items: start;
+  display: flex;
+}
+.OurCoffeeAbout__img {
+  display: block;
+  margin-right: 79px;
+}
+.OurCoffeeAbout__items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.OurCoffeeAbout__items img {
+  display: block;
+  margin-top: 20px;
+}
+.OurCoffeeAbout p {
+  margin: 25px 0 0;
+  text-align: center;
+  white-space: pre-line;
+}
+.OurCoffeeAbout__border {
+  background-color: #000;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  top: 485px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 240px;
+}
+.OurCoffeeItems {
+  height: 735px;
+}
+.OurCoffeeItems__filter {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.OurCoffeeItems__p1 {
+  font-size: 14px;
+  margin-right: 19px;
+}
+.OurCoffeeItems__p2 {
+  font-size: 14px;
+  margin-right: 35px;
+}
+.OurCoffeeItems__in {
+  background: #fff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  font-family: Merienda, cursive;
+  font-size: 12px;
+  height: 30px;
+  margin-right: 83px;
+  text-align: center;
+  width: 180px;
+}
+.OurCoffeeItems__btn {
+  display: flex;
+}
+.OurCoffeeItems__btn li {
+  background: #fff;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: 12px;
+  list-style-type: none;
+  margin-right: 5px;
+  padding: 7px 0 5px;
+  text-align: center;
+  width: 75px;
+}
+.OurCoffeeItems__items {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.OurCoffeeItems__item {
+  background: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  height: 260px;
+  margin-top: 60px;
+  width: 220px;
+}
+.OurCoffeeItems__item img {
+  display: block;
+  margin: 35px auto 0;
+}
+.OurCoffeeItems__name {
+  font-size: 14px;
+  margin: 14px 0 10px;
+  text-align: center;
+}
+.OurCoffeeItems__country {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 22px 14px 0;
+  text-align: end;
+}
+.OurCoffeeItems__price {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 22px 22px 0;
+  text-align: end;
+}
 /*# sourceMappingURL=main.3019c2e6.css.map*/
